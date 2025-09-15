@@ -1,0 +1,90 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "product_name": "table",
+      "image": "https://example.com/images/table.jpg",
+      "price": 1200000,
+      "quantity": 120,
+      "created_at": "2025-05-12"
+    },
+    {
+      "id": 2,
+      "product_name": "chair",
+      "image": "https://example.com/images/chair.jpg",
+      "price": 450000,
+      "quantity": 200,
+      "created_at": "2025-05-15"
+    },
+    {
+      "id": 3,
+      "product_name": "bookshelf",
+      "image": "https://example.com/images/bookshelf.jpg",
+      "price": 2100000,
+      "quantity": 80,
+      "created_at": "2025-06-01"
+    },
+    {
+      "id": 4,
+      "product_name": "lamp",
+      "image": "https://example.com/images/lamp.jpg",
+      "price": 350000,
+      "quantity": 150,
+      "created_at": "2025-06-10"
+    },
+    {
+      "id": 5,
+      "product_name": "sofa",
+      "image": "https://example.com/images/sofa.jpg",
+      "price": 5800000,
+      "quantity": 50,
+      "created_at": "2025-07-02"
+    },
+    {
+      "id": 6,
+      "product_name": "bed",
+      "image": "https://example.com/images/bed.jpg",
+      "price": 7200000,
+      "quantity": 40,
+      "created_at": "2025-07-18"
+    }
+  ],
+  "student": [
+    {
+      "id": 2,
+      "student_name": "Tran Thi B",
+      "email": "tranthib@example.com",
+      "address": "TP. Hồ Chí Minh",
+      "phone": "0912345678",
+      "status": false,
+      "created_at": "2025-05-15"
+    },
+    {
+      "id": 3,
+      "student_name": "Le Van C",
+      "email": "levanc@example.com",
+      "address": "Đà Nẵng",
+      "phone": "0987654321",
+      "status": true,
+      "created_at": "2025-06-01"
+    },
+    {
+      "id": 4,
+      "student_name": "Pham Thi D",
+      "email": "phamthid@example.com",
+      "address": "Cần Thơ",
+      "phone": "0934567890",
+      "status": true,
+      "created_at": "2025-06-18"
+    },
+    {
+      "id": 5,
+      "student_name": "Hoang Van E",
+      "email": "hoangvane@example.com",
+      "address": "Hải Phòng",
+      "phone": "0978123456",
+      "status": false,
+      "created_at": "2025-07-02"
+    }
+  ]
+}
