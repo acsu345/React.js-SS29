@@ -15,8 +15,6 @@ export default function StudentList() {
   const [students, setStudents] = useState<Student[]>([]);
   const [showModal, setShowModal] = useState(false);
   const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
-
-  // Lấy danh sách sinh viên
   const getAllStudent = async () => {
     try {
       const res = await axios.get<Student[]>("http://localhost:8080/student");
@@ -25,14 +23,12 @@ export default function StudentList() {
       console.error("Lỗi khi gọi API:", error);
     }
   };
-
-  // Hàm xóa sinh viên
   const deleteStudent = async (id: number) => {
     try {
       await axios.delete(`http://localhost:8080/student/${id}`);
       setShowModal(false);
       setSelectedStudent(null);
-      getAllStudent(); // Load lại danh sách
+      getAllStudent(); 
     } catch (error) {
       console.error("Lỗi khi xóa sinh viên:", error);
     }
